@@ -13,19 +13,19 @@
       rel="stylesheet"
     />
 
+      <script src="https://static.truecall.com/s/truecall.js"></script>
       <script src="https://static.truecall.com/c/fxi5yatkqef16o0si1414nralfl8akc539o8.js"></script>
-    <script src="https://static.truecall.com/s/truecall.js"></script>
 
     <script>
-    const interval = setInterval(() => {
-      const tc_id = window.TrueCall?.getId();
-
-      if(tc_id) {
-        // Your DNI programmatic tagging logic goes here
-        clearInterval(interval)
-      }
-    }, 100)
- </script>
+        const interval = setInterval(() => {
+          const tc_id = window.TrueCall?.getId();
+    
+          if(tc_id) {
+            // Your DNI programmatic tagging logic goes here
+            clearInterval(interval)
+          }
+        }, 100)
+     </script>
 
     <script
       src="https://kit.fontawesome.com/52da63830c.js"
